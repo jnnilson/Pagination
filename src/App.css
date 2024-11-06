@@ -1,0 +1,60 @@
+.container{
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.main-heading{
+  color: tomato;
+}
+
+.crypto_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  cursor: pointer;
+  background: rgb(231, 231, 231);
+  border-radius: 20px;
+  margin: 2rem 4rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+}
+.posts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.post{
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: yellow;
+}
+
+post-title{
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: yellow;
+}
+
+post-body{
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: yellow;
+}
